@@ -1,7 +1,7 @@
 import 'dart:math';
 
 class Box{
-  
+
 }
 
 
@@ -25,15 +25,11 @@ abstract class AttackType {
   void punch();
 }
 
-class normal {
-  void hello() {
-    print("hello");
-  }
-}
+
 
 //플레이어 클래스 정의
 
-class User extends normal {
+class User extends Unit {
   String name ;
   int hp ;
   int minDmg;
